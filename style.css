@@ -355,8 +355,8 @@ margin-right: 30px;
 .contact {
   background-color: rgba(51,51,51,1);
   width: 100%;
-  height: 120px;
-  padding-top: 10px;
+  height: 140px;
+  padding-top: 20px;
   -webkit-background-size: 100% 110px;
   -moz-background-size: 100% 110px;
   -o-background-size: 100% 110px;
@@ -368,6 +368,7 @@ margin-right: 30px;
 
 
 .contact-icon {
+  margin-top: -10px;
   margin-left: 10px;
   opacity: 0.7;
 }
@@ -427,12 +428,31 @@ margin-right: 30px;
   text-align: center;
 }
 
+.footer-message {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'EB Garamond', serif;
+  margin-top: 70px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #c0c2c6;
+  padding: 10px;
+  margin-left: 475px;
+  text-align: center;
+}
+.line {
+  opacity: 0.5;
+  position: absolute;
+  color: #c0c2c6;
+  margin-left: 625px;
+  margin-top: 60px;
+}
 .footer-email {
   position: absolute;
   text-decoration: none;
   font-family: Arial;
-  margin-top: 60px;
-  margin-left: 530px;
+  margin-top: 40px;
+  margin-left: -180px;
   font-size: 13px;
   letter-spacing: 2px;
   color: #c0c2c6;
@@ -446,7 +466,7 @@ background-color: white;
 footer {
   background-color: rgba(31,31,31,1);
   width: 100%;
-  height: 160px;
+  height: 190px;
   -webkit-background-size: 100% 150px;
   -moz-background-size: 100% 150px;
   -o-background-size: 100% 150px;
