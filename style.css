@@ -7,17 +7,18 @@
   margin-top: -60px;
 }
 .logo {
-  width: 135px;
+  max-width: 135px;
   margin-top: 50px;
 }
 .transparent {
   position: no-repeat fixed;
     background:rgba(0,0,0,0.4);
     height: 550px;
-    width: 100%;
+    max-width: 100%;
     margin-top: -550px;
 }
 nav {
+  max-width: 100%;
   margin-top: -70px;
 }
 
@@ -66,7 +67,7 @@ h1 {
   text-align: center;
   color: #626e82;
    font-family: 'Old Standard TT', serif;
-  width: 1200px;
+  max-width: 1200px;
   font-style: italic;
   font-size: 24px;
   letter-spacing: 1px;
@@ -77,6 +78,7 @@ h1 {
 .section {
  font-family: 'EB Garamond', serif;
  font-style: italic;
+ max-width: 100%;
  color: #524e4d;
   font-size: 26px;
   text-align: center;
@@ -111,6 +113,7 @@ margin-left: -125px;
 }
 #git {
   width: 190px;
+  max-width: 100%;
   height: 135px;
   margin-left: 90px;
 }
@@ -132,23 +135,27 @@ margin-left: -125px;
  }
 
 .projects-div {
+  max-width: 100%;
   margin-top: 75px;
   padding-bottom: 150px;
 }
  .project-1-container {
   margin-left: 50px;
   width: 325px;
+  max-width: 100%;
  }
 
  .project-2-container {
   width: 325px;
-margin-top: -488px;
+  max-width: 100%;
+margin-top: -510px;
 margin-left: 410px;
  }
 
  .project-3-container {
   width: 325px;
-margin-top: -507px;
+  max-width: 100%;
+margin-top: -508px;
 margin-left: 415px;
  }
 
@@ -158,18 +165,26 @@ margin-left: 415px;
 
   .project-4-container {
   width: 325px;
-  margin-top: -25px;
+  max-width: 100%;
+  padding-top: 20px
+  margin-top: -35px;
 margin-left: -825px;
+ }
+
+ #kitty-health-tracker {
+
  }
 
  .project-5-container {
   width: 325px;
-  margin-top: -489px;
+  max-width: 100%;
+  margin-top: -507px;
 margin-left: 410px;
  }
 
  .project-6-container {
   width: 325px;
+  max-width: 100%;
   margin-top: -490px;
 margin-left: 410px;
  }
@@ -177,6 +192,7 @@ margin-left: 410px;
 
 .project {
   width: 325px;
+  max-width: 100%;
   border-radius: 6px;
   text-align: center;
 }
@@ -194,6 +210,7 @@ margin-left: 410px;
 .project-info {
   font-style: normal;
   width: 350px;
+  max-width: 100%;
   text-align: center;
   font-family: 'Old Standard TT', serif;
   font-weight: 700;
@@ -207,6 +224,7 @@ margin-left: 410px;
 
 .gh-icon {
   width: 40px;
+  max-width: 100%;
   opacity: 0.6;
   margin-right: 5px;
 }
@@ -216,6 +234,7 @@ margin-left: 410px;
 }
 .www-icon {
   width: 40px;
+  max-width: 100%;
   opacity: 0.6;
 }
 
@@ -312,15 +331,16 @@ h2 {
 
 
 .resume-container{
-  width: 100%;
+  max-width: 100%;
   height: 150px;
   background-color: rgba(31,31,31,1);
 }
 
 
 iframe {
+  max-width: 100%;
   margin-top: 75px;
-  margin-left: 200px;
+  margin-left: 225px;
 }
 .spacer {
   height: 75px;
@@ -328,6 +348,7 @@ iframe {
 
 .resume-logo {
 width: 135px;
+max-width: 100%;
 margin-top: 25px;
 }
 
@@ -354,6 +375,7 @@ margin-right: 30px;
 .contact {
   background-color: rgba(51,51,51,1);
   width: 100%;
+  max-width: 100%;
   height: 140px;
   padding-top: 20px;
   -webkit-background-size: 100% 140px;
@@ -373,7 +395,7 @@ margin-right: 30px;
 }
 
 #github-icon {
-  width: 38px;
+  max-width: 38px;
 }
 
 .contact-icon:hover {
@@ -412,11 +434,11 @@ margin-right: 30px;
   }
 }
 #email-icon {
-  width: 40px;
+  max-width: 40px;
 }
 
 #linkedin-icon {
-  width: 40px;
+  max-width: 40px;
 }
 
 .contact-text {
@@ -426,18 +448,18 @@ margin-right: 30px;
   font-size: 26px;
   text-align: center;
 }
-
-.footer-message {
+.footer-message-div {
   position: absolute;
+  margin-top: 60px;
+  margin-left: 490px;
+}
+.footer-message {
+  max-width: 100%;
   text-transform: uppercase;
   font-family: 'EB Garamond', serif;
-  margin-top: 70px;
   font-size: 14px;
   letter-spacing: 2px;
   color: #c0c2c6;
-  padding: 10px;
-  margin-left: 475px;
-  text-align: center;
 }
 .line {
   opacity: 0.5;
@@ -447,6 +469,7 @@ margin-right: 30px;
   margin-top: 60px;
 }
 .footer-email {
+  max-width: 100%;
   position: absolute;
   text-decoration: none;
   font-family: Arial;
@@ -465,6 +488,7 @@ background-color: white;
 footer {
   background-color: rgba(31,31,31,1);
   width: 100%;
+  max-width: 100%;
   height: 190px;
   -webkit-background-size: 100% 190px;
   -moz-background-size: 100% 190px;
