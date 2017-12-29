@@ -82,7 +82,7 @@ h1 {
  color: #524e4d;
   font-size: 26px;
   text-align: center;
-  /*margin-top: 75px;*/
+  margin-top: 75px;
 }
 
 .skills {
@@ -136,29 +136,29 @@ margin-left: -125px;
 
 .projects-div {
   display: inline-flex;
-  overflow: auto;
-  max-width: 100%;
+  /*overflow: auto;*/
   padding-bottom: 150px;
+  max-width: 100%
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
 }
  .project-1-container {
-  margin-left: 70px;
-  width: 325px;
-  max-width: 100%;
+  margin-left: 50px;
+  max-width: 325px;
   margin-top: 50px;
 
  }
 
  .project-2-container {
-  max-width: 100%;
-  width: 325px;
-margin-top: 45px;
+  max-width: 325px;
+margin-top: 48px;
 margin-left: 75px;
  }
 
  .project-3-container {
-  max-width: 100%;
-  width: 325px;
-margin-top: 45px;
+  max-width: 325px;
+margin-top: 48px;
 margin-left: 80px;
  }
 
@@ -167,10 +167,9 @@ margin-left: 80px;
  }
 
   .project-4-container {
-  width: 325px;
-  max-width: 100%;
+  max-width: 325px;
   margin-top: 535px;
-margin-left: -1125px;
+margin-left: -1145px;
  }
 
  #kitty-health-tracker {
@@ -178,22 +177,20 @@ margin-left: -1125px;
  }
 
  .project-5-container {
-  width: 325px;
-  max-width: 100%;
+ max-width: 325px;
   margin-top: 535px;
 margin-left: 80px;
  }
 
  .project-6-container {
-  width: 325px;
-  max-width: 100%;
+  max-width: 325px;
   margin-top: 535px;
 margin-left: 70px;
  }
 
 
 .project {
-  width: 325px;
+  max-width: 325px;
   border-radius: 6px;
   text-align: center;
 }
@@ -326,16 +323,14 @@ h2 {
 /*@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }*/
-@media only screen and (max-width:620px) {
-  .project-1-container, .project-2-container, .project-3-container,
-  .project-4-container, .project-5-container, .project-6-container {
+@media screen and (max-width:620px) {
+  .project-container {
     width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
   }
 }
 
 
 .resume-container{
-  max-width: 100%;
   height: 150px;
   background-color: rgba(31,31,31,1);
 }
@@ -377,9 +372,7 @@ margin-right: 30px;
 
 
 .contact {
-  float: left;
   background-color: rgba(51,51,51,1);
-  width: 100%;
   max-width: 100%;
   height: 140px;
   padding-top: 20px;
@@ -454,12 +447,12 @@ margin-right: 30px;
   text-align: center;
 }
 .footer-message-div {
+  max-width: 100%;
   position: absolute;
   margin-top: 60px;
   margin-left: 490px;
 }
 .footer-message {
-  max-width: 100%;
   text-transform: uppercase;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
@@ -491,9 +484,7 @@ border-radius: 50px;
 background-color: white;
 }
 footer {
-  float: left;
   background-color: rgba(31,31,31,1);
-  width: 100%;
   max-width: 100%;
   height: 190px;
   -webkit-background-size: 100% 190px;
