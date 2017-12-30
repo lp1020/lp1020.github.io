@@ -84,12 +84,22 @@ h1 {
   text-align: center;
   margin-top: 75px;
 }
+.section-mobile {
+  font-family: 'EB Garamond', serif;
+ font-style: italic;
+ max-width: 100%;
+ color: #524e4d;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 30px;
+  visibility: hidden;
+}
 
 .skills {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .skill-icon {
@@ -135,10 +145,10 @@ margin-left: -125px;
  }
 
 .projects-div {
+  margin-top: -75px;
   display: inline-flex;
   /*overflow: auto;*/
   padding-bottom: 150px;
-  max-width: 100%
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -169,7 +179,7 @@ margin-left: 80px;
   .project-4-container {
   max-width: 325px;
   margin-top: 535px;
-margin-left: -1145px;
+margin-left: -1125px;
  }
 
  #kitty-health-tracker {
@@ -323,10 +333,67 @@ h2 {
 /*@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }*/
-@media screen and (max-width:620px) {
+@media screen and (max-width:800px) {
   .project-container {
     width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
   }
+  iframe {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: -100px;
+  }
+.footer-message {
+  position: absolute;
+  margin-left: -445px;
+}
+.section-mobile {
+  visibility: visible;
+  margin-top: -50px;
+  padding-bottom: 50px;
+}
+.section {
+  visibility: hidden;
+}
+.skills {
+  justify-content: center;
+  margin-left: -90px;
+  margin-bottom: -50px;
+}
+.summary {
+  margin-bottom: -70px;
+  margin-left: 0px;
+  padding: 8px;
+}
+nav {
+  margin-top: 10px;
+}
+
+.project-1-container {
+  margin-top: 75px;
+  margin-left: 25px;
+}
+.project-2-container {
+  margin-top: 540px;
+  margin-left: -325px;
+}
+
+.project-3-container {
+  margin-top: 1050px;
+  margin-left: -325px;
+}
+.project-4-container {
+  margin-top: 1575px;
+  margin-left: -325px;
+}
+.project-5-container {
+margin-top: 2075px;
+  margin-left: -325px;
+}
+.project-6-container {
+margin-top: 2575px;
+  margin-left: -325px;
+}
 }
 
 
@@ -335,11 +402,13 @@ h2 {
   background-color: rgba(31,31,31,1);
 }
 
+.resume-div {
+  margin-top: 75px;
+  margin-left: 225px;
+}
 
 iframe {
   max-width: 100%;
-  margin-top: 75px;
-  margin-left: 225px;
 }
 .spacer {
   height: 75px;
@@ -453,6 +522,10 @@ margin-right: 30px;
   margin-left: 490px;
 }
 .footer-message {
+  /*max-width: 100%;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 490px;*/
   text-transform: uppercase;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
