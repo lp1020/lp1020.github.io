@@ -377,6 +377,9 @@ nav {
   width: 100%;
   text-align: center;
 }
+.project-container {
+  margin-bottom: 100px;
+}
 .project-1-container {
   margin-top: 75px;
   /*margin-left: 25px;*/
@@ -392,7 +395,7 @@ nav {
   margin-left: -325px;
 }
 .project-4-container {
-  margin-top: 1900px;
+  margin-top: 1700px;
   margin-left: -325px;
 }
 .project-5-container {
@@ -400,7 +403,7 @@ margin-top: 2200px;
   margin-left: -325px;
 }
 .project-6-container {
-margin-top: 3000px;
+margin-top: 2750px;
   margin-left: -325px;
 }
 }
