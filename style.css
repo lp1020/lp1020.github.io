@@ -333,7 +333,7 @@ h2 {
 /*@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }*/
-@media screen and (max-width:650px) {
+@media screen and (max-width:800px) {
   .project-container {
     width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
   }
