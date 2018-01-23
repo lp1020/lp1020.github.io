@@ -348,6 +348,10 @@ h2 {
 .section {
   visibility: hidden;
 }
+.intro {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .summary {
   padding-left: 15px;
