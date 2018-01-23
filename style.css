@@ -349,13 +349,13 @@ h2 {
   visibility: hidden;
 }
 .intro {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .summary {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .about {
   display: none;
