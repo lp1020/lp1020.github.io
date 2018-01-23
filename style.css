@@ -120,7 +120,9 @@ background-color: white;
   padding-left: 110px;
   padding-right: 110px;
 }
-
+.skills {
+  margin-top: -45px;
+}
 .skill-icon {
   max-width: 50%;
 }
@@ -349,13 +351,13 @@ h2 {
   visibility: hidden;
 }
 .intro {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .summary {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .about {
   display: none;
