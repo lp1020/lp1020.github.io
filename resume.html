@@ -1,49 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<html !DOCTYPE>
 <head>
-   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liana Penn | Resume</title>
-  <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/124-512.png">
+    <title>Liana Penn | Resume</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|Montserrat" rel="stylesheet">
 </head>
 <body>
-  <header id="header" class="">
+    <header id="header" class="">
     <div class="resume-container">
     <a href="index.html">
 <img src="images/logo-white.png" alt="Home" class="resume-logo"/>
 </a>
 <nav class="resume-nav">
   <ul>
-    <a href="#contact_section"><li>CONTACT</li></a>
-    <!-- <a href="resume.html"><li>RESUME</li></a>
-    <a href="index.html/#projects_section"><li>PROJECTS</li></a>
-    <a href="index.html/#skills_section"><li>SKILLS</li></a> -->
+    <a href="#contact"><li>CONTACT</li></a>
     <a href="index.html"><li>HOME</li></a>
     </li>
   </ul>
   </nav>
 </div>
   </header>
-  <div class="resume-div">
-  <iframe src="images/Liana Penn - Resume.pdf"
-  width="850" height="1100" seamless></iframe>
+  <div class="embed-responsive embed-responsive-16by9 resume">
+  <iframe class="embed-responsive-item" src="images/Liana Penn - Resume.pdf" allowfullscreen></iframe>
 </div>
-  <div class="spacer"></div>
-  <section id="contact_section">
-  <div class="contact">
-    <div class="contact-icon-div">
+
+<a href="https://resume.creddle.io/resume/2s7lmmoooiu"><h2 class="resume-link">CLICK HERE FOR RESUME</h2></a>
+
+  <section id="contact">
+  <div class="container-fluid contact">
+    <div class="contact-icon-div text-center">
       <p class="contact-text">GET IN TOUCH</p>
     <a href="https://github.com/lp1020" target="_blank"><img src="images/github-icon.png" class="contact-icon" id="github-icon"/></a>
-    <a href="mailto:lianapenn@gmail.com"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <a id="myBtn"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <div id="myModal" class="container-fluid modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>LET'S CHAT</h2>
+    </div>
+    <div class="modal-body">
+      <form method="POST" action="https://formspree.io/lianapenn@gmail.com">
+        <div class="form-group"><input class="form-control modal-input" type="text" name="name" placeholder="Your name"></div>
+  <div class="form-group"><input class="form-control modal-input" type="email" name="email" placeholder="Your email"></div>
+  <div class="form-group"><textarea class="form-control modal-message" name="message" placeholder="Your message"></textarea></div>
+  <input type="hidden" name="_subject" value="New submission!" />
+  <button class="btn btn-default modal-button" type="submit">Send</button>
+</form>
+    </div>
+  </div>
+
+</div>
+
     <a href="https://www.linkedin.com/in/liana-penn/" target="_blank"><img src="images/linkedin.png" class="contact-icon" id="linkedin-icon"/></a>
-        <a href="mailto:lianapenn@gmail.com" class="footer-email">LIANAPENN@GMAIL.COM</a>
+    <div class="footer-email">LIANAPENN@GMAIL.COM</div>
   </div>
   </div>
 <footer>
-  <div class="footer-message-div">
-  <p class="footer-message">Made with ❤️ by Liana Penn © 2017</p>
+  <div class="container-fluid text-center footer-message-div">
+  <p class="footer-message">Made with ❤️ by Liana Penn &copy; 2018</p>
 </div>
 </footer>
 </section>
+<script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>

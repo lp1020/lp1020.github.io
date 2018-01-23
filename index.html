@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liana Penn | Dev & UX Design</title>
-  <link href="style.css" rel="stylesheet">
   <link rel="icon" href="images/124-512.png">
   <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,7 +24,7 @@
     <a href="resume.html"><li>RESUME</li></a>
     <a href="#projects_section"><li>PROJECTS</li></a>
     <a href="#skills_section"><li>SKILLS</li></a>
-    <a href="#about_section"><li>ABOUT</li></a>
+    <a href="#about_section" class="aboot"><li>ABOUT</li></a>
     <a href=""><li>HOME</li></a>
     </li>
   </ul>
@@ -35,13 +35,13 @@
   <p class="heading">Web Developer & UX Designer</p>
   </div>
 </div>
-<div class= "text-center">
+<div class="text-center">
   <p class="intro">HI, I'M LIANA. I'M A WEB DEVELOPER AND UX DESIGNER BASED IN NYC.</p>
 <p class="summary">AS AN ARTIST WITH A BACKGROUND IN MUSIC AND PERFORMING, I AM AN INTENSELY CREATIVE WEB DEVELOPER WHO LOVES DEFYING CONVENTION IN MY WORK. I AM A QUICK LEARNER, I ENJOY WORKING AS PART OF A TEAM, AND I BRING ABSTRACT THOUGHT AND A COOL HEAD TO A HIGH-PRESSURE AND DETAIL-ORIENTED ENVIRONMENT.</p>
 </div>
 <section id="skills_section">
-<p class="section">____________________________________________ SKILLS ____________________________________________</p>
-<p class="section-mobile">__________ SKILLS __________</p>
+<p class="section">______________________________________ SKILLS ______________________________________</p>
+<p class="section-mobile">_______ SKILLS _______</p>
 <div class="container skills">
 
   <div class="row">
@@ -81,12 +81,21 @@
 
   </div>
   </section>
-
+<section id="about_section">
+<p class="about text-center" style="color: white; margin-top: 20px;">______________________________________ ABOUT ______________________________________</p>
+<p class="section-mobile-about" style="color: white; margin-top: 20px;">_______ ABOUT _______</p>
+<div class="about-me text-center">
+  I am always on a quest to learn and grow as much as possible with the most current technologies and skills. Thanks to having worked for several years in customer experience in addition to my creative instinct, I possess an innate sense of empathy and intuition. This compels me to assure that the user experience is constantly the first priority of any project I am working on.
+  Whether I am planning, wireframing, prototyping, or developing, my goal is for all users to enjoy my products to the fullest extent with optimal ease-of-use and distinct modern design.
+  </div>
+</section>
   <section id="projects_section">
-  <p class="section">__________________________________________ PROJECTS ____________________________________________</p>
-  <p class="section-mobile">- PROJECTS -</p>
-  <div class="projects-div">
-    <div class="project-1-container" class="project-container">
+  <p class="section">_____________________________________ PROJECTS _____________________________________</p>
+  <p class="section-mobile">_______ PROJECTS _______</p>
+     <div class="container projects-div">
+    <div class="row">
+
+    <div class="col-sm-4 project-1-container project-container text-center">
       <h2>CRUELTY-FREE-4-ME</h2>
      <a href="https://cruelty-free-4-me.herokuapp.com/" target="_blank"><img src="images/cruelty-free-4-me.png" class="project" id="cruelty-free-4-me"></a>
      <p class="project-info">CrueltyFree4Me is a community listing of cruelty-free and non-cruelty free companies, as well as a location tracker and vegetarian restaurant finder with user authentication, geolocation and maps. It is built with Ruby on Rails, ERB, React, CoffeeScript, PostgreSQL, and the Google Places API.</p>
@@ -95,16 +104,16 @@
      <a href="https://cruelty-free-4-me.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
    </div>
  </div>
-   <div class="project-2-container" class="project-container">
+   <div class="col-sm-4 project-2-container project-container text-center">
       <h2>MUSIC SPACE</h2>
      <a href="https://music-space-app.herokuapp.com/" target="_blank"><img src="images/music-space.png" class="project" id="music-space"></a>
-     <p class="project-info">Music Space is a full CRUD Ruby on Rails application along with ERB, CSS, and PostgreSQL for keeping track of your favorite artists and songs. Users can add, edit, or delete their favorite artists as well as their favorite songs by those artists. Users can also display a YouTube embedded music video of each song. </p>
+     <p class="project-info">Music Space is a full CRUD Ruby on Rails application along with ERB, CSS, and PostgreSQL for keeping track of your favorite artists and songs. Users can add, edit, or delete their favorite artists as well as add, edit, or delete their favorite songs by those artists. Users can also display a YouTube embedded music video of each song. </p>
      <div class="icon-container">
      <a href="https://github.com/lp1020/rails_band_app" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
      <a href="https://music-space-app.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
    </div>
  </div>
-   <div class="project-3-container" class="project-container">
+ <div class="col-sm-4 project-3-container project-container text-center" id="beast">
       <h2>FIND-A-FANTASTIC-BEAST</h2>
      <a href="https://github.com/LSDevs/find_a_fantastic_beast" target="_blank"><img src="images/find-a-fantastic-beast.png" class="project" id="find-a-fantastic-beast"></a>
      <p class="project-info">This is a full CRUD petfinder application for magical (and non-magical) animals using postgreSQL, Node.js/Express, and ReactJS with user authentication. It uses the Yelp API to display a real local animal shelter from each borough in New York City. It then allows the user to view, add, edit, or "adopt" (aka delete) available fake animals from the database.</p>
@@ -113,7 +122,10 @@
      <!-- <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a> -->
    </div>
  </div>
-   <div class="project-4-container" class="project-container">
+</div>
+
+ <div class="row">
+   <div class="col-sm-4 project-4-container project-container text-center">
       <h2>KITTY HEALTH TRACKER</h2>
      <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/kitty-health-tracker.png" class="project" id="kitty-health-tracker"></a>
      <p class="project-info">This is a full CRUD health tracker app which tracks daily health stats and displays users' average stats. It is built using Node.js/Express, postgreSQL, and EJS. It employs the GIPHY API to display funny cat GIFs throughout the site as an added fun touch. </p>
@@ -122,7 +134,8 @@
      <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
    </div>
  </div>
-   <div class="project-5-container" class="project-container">
+
+   <div class="col-sm-4 project-5-container project-container text-center">
       <h2>JEOPARDY!</h2>
      <a href="http://signaller-eighties-62857.bitballoon.com/" target="_blank"><img src="images/jeopardy.png" class="project" id="jeopardy"></a>
      <p class="project-info">The classic trivia game show in which players answer questions with different monetary values. If users answer the question correctly, money is added to their bank, and if they are incorrect, it is subtracted. It is built with HTML, CSS, JavaScript, and jQuery.</p>
@@ -131,7 +144,7 @@
      <a href="http://signaller-eighties-62857.bitballoon.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
    </div>
  </div>
-   <div class="project-6-container" class="project-container">
+   <div class="col-sm-4 project-6-container project-container text-center">
       <h2>OFF TO THE RACES</h2>
      <a href="http://counseller-randy-76110.bitballoon.com/" target="_blank"><img src="images/race-cars.png" class="project" id="race-cars"></a>
      <p class="project-info">This is a two-player race car game in which each car is assigned a key on the keyboard in order to move it. The player who gets their car across the finish line first wins. Built with JavaScript, HTML, and CSS.</p>
@@ -141,73 +154,123 @@
    </div>
     </div>
   </div>
-<!--
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 6</div>
-  <img src="images/kitty-health-tracker.png" class="slideshow">
-  <div class="text">Kitty Health Tracker</div>
 </div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 6</div>
-  <img src="images/find-a-fantastic-beast.png" class="slideshow">
-  <div class="text">Find-A-Fantastic-Beast</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="images/jeopardy.png" class="slideshow">
-  <div class="text">JEOPARDY!</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="images/race-cars.png" class="slideshow">
-  <div class="text">Off To The Races</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="images/music-space.png" class="slideshow">
-  <div class="text">Music Space</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="images/cruelty-free-4-me.png" class="slideshow">
-  <div class="text">Cruelty-Free-4-Me</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div> -->
 </section>
+
+
+
+
+  <div class="container projects-div-mobile">
+    <div class="row">
+
+    <div class="col-sm-6 project-1-container project-container text-center">
+      <h2>CRUELTY-FREE-4-ME</h2>
+     <a href="https://cruelty-free-4-me.herokuapp.com/" target="_blank"><img src="images/cruelty-free-4-me.png" class="project" id="cruelty-free-4-me"></a>
+     <p class="project-info">CrueltyFree4Me is a community listing of cruelty-free and non-cruelty free companies, as well as a location tracker and vegetarian restaurant finder with user authentication, geolocation and maps. It is built with Ruby on Rails, ERB, React, CoffeeScript, PostgreSQL, and the Google Places API.</p>
+     <div class="icon-container">
+     <a href="https://github.com/lp1020/project-4" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <a href="https://cruelty-free-4-me.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
+   </div>
+ </div>
+   <div class="col-sm-6 project-2-container project-container text-center">
+      <h2>MUSIC SPACE</h2>
+     <a href="https://music-space-app.herokuapp.com/" target="_blank"><img src="images/music-space.png" class="project" id="music-space"></a>
+     <p class="project-info">Music Space is a full CRUD Ruby on Rails application along with ERB, CSS, and PostgreSQL for keeping track of your favorite artists and songs. Users can add, edit, or delete their favorite artists as well as add, edit, or delete their favorite songs by those artists. Users can also display a YouTube embedded music video of each song. </p>
+     <div class="icon-container">
+     <a href="https://github.com/lp1020/rails_band_app" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <a href="https://music-space-app.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
+   </div>
+ </div>
+</div>
+
+ <div class="row">
+   <div class="col-sm-6 project-3-container project-container text-center">
+      <h2>FIND-A-FANTASTIC-BEAST</h2>
+     <a href="https://github.com/LSDevs/find_a_fantastic_beast" target="_blank"><img src="images/find-a-fantastic-beast.png" class="project" id="find-a-fantastic-beast"></a>
+     <p class="project-info">This is a full CRUD petfinder application for magical (and non-magical) animals using postgreSQL, Node.js/Express, and ReactJS with user authentication. It uses the Yelp API to display a real local animal shelter from each borough in New York City. It then allows the user to view, add, edit, or "adopt" (aka delete) available fake animals from the database.</p>
+     <div class="icon-container">
+     <a href="https://github.com/LSDevs/find_a_fantastic_beast" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <!-- <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a> -->
+   </div>
+ </div>
+   <div class="col-sm-6 project-4-container project-container text-center">
+      <h2>KITTY HEALTH TRACKER</h2>
+     <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/kitty-health-tracker.png" class="project" id="kitty-health-tracker"></a>
+     <p class="project-info">This is a full CRUD health tracker app which tracks daily health stats and displays users' average stats. It is built using Node.js/Express, postgreSQL, and EJS. It employs the GIPHY API to display funny cat GIFs throughout the site as an added fun touch. </p>
+     <div class="icon-container">
+     <a href="https://github.com/lp1020/kitty-health-tracker" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <a href="https://kitty-health-tracker.herokuapp.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
+   </div>
+ </div>
+</div>
+
+ <div class="row">
+   <div class="col-sm-6 project-5-container project-container text-center">
+      <h2>JEOPARDY!</h2>
+     <a href="http://signaller-eighties-62857.bitballoon.com/" target="_blank"><img src="images/jeopardy.png" class="project" id="jeopardy"></a>
+     <p class="project-info">The classic trivia game show in which players answer questions with different monetary values. If users answer the question correctly, money is added to their bank, and if they are incorrect, it is subtracted. It is built with HTML, CSS, JavaScript, and jQuery.</p>
+     <div class="icon-container">
+     <a href="https://github.com/lp1020/jeopardy" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <a href="http://signaller-eighties-62857.bitballoon.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
+   </div>
+ </div>
+   <div class="col-sm-6 project-6-container project-container text-center">
+      <h2>OFF TO THE RACES</h2>
+     <a href="http://counseller-randy-76110.bitballoon.com/" target="_blank"><img src="images/race-cars.png" class="project" id="race-cars"></a>
+     <p class="project-info">This is a two-player race car game in which each car is assigned a key on the keyboard in order to move it. The player who gets their car across the finish line first wins. Built with JavaScript, HTML, and CSS.</p>
+     <div class="icon-container">
+     <a href="https://github.com/lp1020/javascript-race-cars" target="_blank"><img src="images/GitHub-black.png" class="gh-icon"></a>
+     <a href="http://counseller-randy-76110.bitballoon.com/" target="_blank"><img src="images/www.png" class="www-icon"></a>
+   </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
   <section id="contact_section">
-  <div class="contact">
-    <div class="contact-icon-div">
+  <div class="container-fluid contact">
+    <div class="contact-icon-div text-center">
       <p class="contact-text">GET IN TOUCH</p>
     <a href="https://github.com/lp1020" target="_blank"><img src="images/github-icon.png" class="contact-icon" id="github-icon"/></a>
-    <a href="mailto:lianapenn@gmail.com"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <a id="myBtn"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <div id="myModal" class="container-fluid modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>LET'S CHAT</h2>
+    </div>
+    <div class="modal-body">
+      <form method="POST" action="https://formspree.io/lianapenn@gmail.com">
+        <div class="form-group"><input class="form-control modal-input" type="text" name="name" placeholder="Your name"></div>
+  <div class="form-group"><input class="form-control modal-input" type="email" name="email" placeholder="Your email"></div>
+  <div class="form-group"><textarea class="form-control modal-message" name="message" placeholder="Your message"></textarea></div>
+  <input type="hidden" name="_subject" value="New submission!" />
+  <button class="btn btn-default modal-button" type="submit">Send</button>
+</form>
+    </div>
+  </div>
+
+</div>
+
     <a href="https://www.linkedin.com/in/liana-penn/" target="_blank"><img src="images/linkedin.png" class="contact-icon" id="linkedin-icon"/></a>
-    <a href="mailto:lianapenn@gmail.com" class="footer-email">LIANAPENN@GMAIL.COM</a>
+    <div class="footer-email">LIANAPENN@GMAIL.COM</div>
   </div>
   </div>
 <footer>
-  <div class="footer-message-div">
-  <p class="footer-message">Made with ❤️ by Liana Penn © 2017</p>
+  <div class="container-fluid text-center footer-message-div">
+  <p class="footer-message">Made with ❤️ by Liana Penn &copy; 2018</p>
 </div>
 </footer>
 </section>
+
 <script src="main.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
