@@ -62,6 +62,8 @@ background-color: white;
   font-size: 26px;
   margin-top: 40px;
   padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .summary {
@@ -286,7 +288,7 @@ h2 {
   height: 100%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   .aboot {
     float: right;
     margin-left: 30px;
@@ -297,9 +299,16 @@ h2 {
 .section {
   visibility: hidden;
 }
+.intro {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .summary {
   padding-left: 15px;
   padding-right: 15px;
+}
+.skills {
+  margin-top: 20px;
 }
 .about {
   display: none;
@@ -319,13 +328,13 @@ h2 {
   width: 290px;
 }
 .projects-div {
-  margin-top: 40px;
+  padding-top: 20px;
 }
 .section-mobile-about {
   margin-top: -100px;
 }
 #projects_section {
-  margin-top: -130px;
+  margin-top: -100px;
 }
 .resume {
   display: none;
@@ -350,15 +359,6 @@ h2 {
 }
 .section {
   visibility: hidden;
-}
-.intro {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.summary {
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .about {
   display: none;
