@@ -295,6 +295,7 @@ h2 {
   }
 .section-mobile {
   visibility: visible;
+  margin-top: 10px;
 }
 .section {
   visibility: hidden;
@@ -304,8 +305,8 @@ h2 {
   padding-right: 15px;
 }
 .summary {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .skills {
   margin-top: 20px;
@@ -328,7 +329,7 @@ h2 {
   width: 290px;
 }
 .projects-div {
-  padding-top: 20px;
+  margin-top: 60px;
 }
 .section-mobile-about {
   margin-top: -100px;
@@ -344,6 +345,8 @@ h2 {
   display: block;
   height: 70%;
   padding-top: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .resume-link:hover {
   color: yellow;
