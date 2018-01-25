@@ -300,6 +300,9 @@ h2 {
 .section {
   visibility: hidden;
 }
+#skills-mobile {
+  margin-top: -140px;
+}
 .intro {
   padding-left: 15px;
   padding-right: 15px;
