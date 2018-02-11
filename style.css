@@ -288,20 +288,25 @@ h2 {
   height: 100%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
+
+  .home {
+    position: absolute;
+    margin-left: 1em;
+  }
   .aboot {
     float: right;
     margin-left: 30px;
   }
 .section-mobile {
   visibility: visible;
-  margin-top: 10px;
+  padding-top: 60px;
 }
 .section {
   visibility: hidden;
 }
 #skills-mobile {
-  margin-top: -140px;
+  margin-top: -160px;
 }
 .intro {
   padding-left: 15px;
@@ -312,7 +317,7 @@ h2 {
   padding-right: 20px;
 }
 .skills {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .about {
   display: none;
@@ -338,7 +343,7 @@ h2 {
   margin-top: -100px;
 }
 #projects_section {
-  margin-top: -100px;
+  margin-top: -65px;
 }
 .resume {
   display: none;
@@ -549,6 +554,36 @@ footer {
   }
 }
 
+@media screen and (max-width:700px) {
+
+  .home {
+    position: relative;
+  }
+.aboot {
+    clear: both;
+    margin-left: 0px;
+  }
+  .titles {
+    margin-top: -8em;
+  }
+  #skills-mobile {
+  margin-top: -200px;
+}
+ #projects_section {
+  margin-top: -100px;
+}
+}
+
+@media screen and (max-width:350px) {
+
+ ul {
+  position: absolute;
+  margin-top: -1.5em;
+ }
+/* #projects_section {
+  margin-top: -100px;
+}*/
+}
 
 
 .modal {
