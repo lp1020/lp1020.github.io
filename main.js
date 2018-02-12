@@ -1,11 +1,21 @@
+// var $root = $('html, body');
+
+// $('a[href^="#"]').click(function () {
+//   event.preventDefault()
+//     $root.animate({
+//         scrollTop: $( $.attr(this, 'href') ).offset().top
+//     }, 800);
+
+//     return false;
+// });
+
 var $root = $('html, body');
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
 
-$('a[href^="#"]').click(function () {
     $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: $($.attr(this, 'href')).offset().top
     }, 800);
-
-    return false;
 });
 
 // When the user clicks anywhere outside of the modal, close it
