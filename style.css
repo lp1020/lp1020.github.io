@@ -545,11 +545,21 @@ margin-top: 80px;
 .footer-email {
   max-width: 100%;
   font-family: Arial;
-  margin-top: 10px;
+  margin-top: 17px;
   font-size: 13px;
   letter-spacing: 2px;
+}
+
+.footer-email a {
+text-decoration: none;
   color: #c0c2c6;
   padding: 10px;
+}
+
+.footer-email a:hover {
+  color: rgba(31,31,31,1);
+border-radius: 50px;
+background-color: white;
 }
 
 footer {
