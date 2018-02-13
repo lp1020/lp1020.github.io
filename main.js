@@ -1,13 +1,13 @@
-// var $root = $('html, body');
+window.onscroll = function() {scrollFunction()};
 
-// $('a[href^="#"]').click(function () {
-//   event.preventDefault()
-//     $root.animate({
-//         scrollTop: $( $.attr(this, 'href') ).offset().top
-//     }, 800);
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myTopBtn").style.display = "block";
+    } else {
+        document.getElementById("myTopBtn").style.display = "none";
+    }
+}
 
-//     return false;
-// });
 
 var $root = $('html, body');
 $(document).on('click', 'a[href^="#"]', function (event) {
@@ -25,7 +25,11 @@ window.onclick = function(event) {
     }
 }
 
-
+$('#myTopBtn').click(function(){
+    $root.animate({
+        scrollTop: 0
+    }, 800);
+});
 
 
 
