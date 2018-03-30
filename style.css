@@ -386,9 +386,8 @@ h2 {
   padding-left: 15px;
 }
 .resume-link:hover {
-  color: yellow;
   text-decoration: none;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px lightgray;
 }
 }
 
