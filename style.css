@@ -204,6 +204,10 @@ width: 105px;
 #postgresql {
 width: 100px;
 }
+
+#processing {
+  height: 110px;
+}
 #responsive {
   margin-top: 10px;
 }
@@ -223,6 +227,10 @@ width: 100px;
 #sketch {
   width: 100px;
 margin-top: 15px;
+}
+
+#spring {
+  padding-top: 20px;
 }
 #unix {
 margin-top: 30px;
