@@ -183,15 +183,16 @@ background-color: white;
   margin-top: -15px;
 }
 #html {
-  margin-top: -12px;
+  margin-top: -5px;
 }
 #invision {
-margin-top: -25px;
+margin-top: -10px;
 }
 #java {
-  margin-top: -20px;
+  margin-top: -11px;
 }
 #javascript {
+  margin-top: 6px;
   width: 100px;
 }
 #jquery {
