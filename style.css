@@ -456,6 +456,11 @@ margin-top: 0;
   }
 }
 
+#site-wrapper {
+  overflow: auto;
+  height: 100%;
+}
+
 
 .resume-container{
   height: 150px;
