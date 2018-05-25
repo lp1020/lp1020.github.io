@@ -752,6 +752,10 @@ margin-top: 20px;}
   position: absolute;
 }
 
+.particles-js-canvas-el {
+  height: 75% !important;
+}
+
 
 
 
