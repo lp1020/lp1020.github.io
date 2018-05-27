@@ -747,15 +747,28 @@ margin-top: 20px;}
 
 #particles-js {
   width: 100%;
-  height: 71%;
+  height: 100%;
   margin-left: -15px;
   position: absolute;
 }
 
+@media (min-width:700px) {
+.particles-js-canvas-el {
+  height: 73% !important;
+}
+}
+
+/*@media (min-width:1400px) {
 .particles-js-canvas-el {
   height: 75% !important;
 }
+}
 
-
+@media (min-width:2000px) {
+.particles-js-canvas-el {
+  height: 70% !important;
+}
+}
+*/
 
 
