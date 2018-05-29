@@ -754,17 +754,17 @@ margin-top: 20px;}
 
 @media (min-width:700px) {
 .particles-js-canvas-el {
+  height: 40% !important;
+}
+}
+
+@media (min-width:1400px) {
+.particles-js-canvas-el {
   height: 37% !important;
 }
-}
+} 
 
-/*@media (min-width:1400px) {
-.particles-js-canvas-el {
-  height: 75% !important;
-}
-}
-
-@media (min-width:2000px) {
+/* @media (min-width:2000px) {
 .particles-js-canvas-el {
   height: 70% !important;
 }
