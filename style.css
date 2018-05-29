@@ -752,17 +752,25 @@ margin-top: 20px;}
   position: absolute;
 }
 
+@media (min-width:2500px) {
+.particles-js-canvas-el {
+  height: 27% !important;
+}
+} 
+
+@media (min-width:2000px) {
+.particles-js-canvas-el {
+  height: 35% !important;
+}
+} 
+
 @media (min-width:700px) {
 .particles-js-canvas-el {
   height: 40% !important;
 }
 }
 
-@media (min-width:1400px) {
-.particles-js-canvas-el {
-  height: 37% !important;
-}
-} 
+
 
 /* @media (min-width:2000px) {
 .particles-js-canvas-el {
