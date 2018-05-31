@@ -343,7 +343,7 @@ h2 {
   visibility: hidden;
 }
 #skills-mobile {
-  margin-top: -160px;
+  margin-top: -120px;
 }
 .intro {
   padding-left: 15px;
@@ -422,7 +422,7 @@ margin-top: 0;
 @media screen and (max-width:1050px) {
   .section-mobile{
   visibility: visible;
-  margin-top: -60px;
+  margin-top: -20px;
 }
 .section {
   visibility: hidden;
@@ -761,7 +761,7 @@ margin-top: 20px;}
   padding-top: 320px;
 }
 
-@media (min-width:1250px) {
+@media (min-width: 1171px) {
 #skills_section {
     padding-top: 240px;
 }
