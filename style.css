@@ -758,16 +758,22 @@ margin-top: 20px;}
 }
 
 #skills_section {
-  padding-top: 240px;
+  padding-top: 320px;
 }
 
-/*@media (min-width:2500px) {
-.particles-js-canvas-el {
-  height: 27% !important;
+@media (min-width:1250px) {
+#skills_section {
+    padding-top: 240px;
 }
 }
 
-@media (min-width:2000px) {
+@media (min-width: 2000px) {
+#skills_section {
+    padding-top: 200px;
+}
+}
+
+/*@media (min-width:2000px) {
 .particles-js-canvas-el {
   height: 35% !important;
 }
