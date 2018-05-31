@@ -752,6 +752,15 @@ margin-top: 20px;}
   position: absolute;
 }
 
+.intro-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.skills-section {
+  padding-top: 240px;
+}
+
 /*@media (min-width:2500px) {
 .particles-js-canvas-el {
   height: 27% !important;
