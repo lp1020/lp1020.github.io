@@ -773,6 +773,12 @@ margin-top: 20px;}
 }
 }
 
+.nav-container {
+      background-color: rgba(31,31,31, 0.8);
+    float: left;
+    width: 100%;
+}
+
 /*@media (min-width:2000px) {
 .particles-js-canvas-el {
   height: 35% !important;
