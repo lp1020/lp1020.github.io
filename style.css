@@ -59,8 +59,9 @@ background-color: white;
     opacity: 0.9;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 100px; /* Rounded corners */
+  
+      padding: 10px 15px 10px 15px;
+    border-radius: 100%;
     font-size: 18px; /* Increase font size */
 }
 
