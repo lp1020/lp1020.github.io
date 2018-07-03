@@ -775,10 +775,15 @@ margin-top: 20px;}
 
 .nav-container {
       background-color: rgba(31,31,31, 0.7);
+   
+       /*background: linear-gradient(rgba(31,31,31,0), rgba(31,31,31,1));*/
+            box-shadow: 0 0 50px rgb(31,31,31);
     float: left;
     width: 100%;
 }
 
+
+*/
 /*@media (min-width:2000px) {
 .particles-js-canvas-el {
   height: 35% !important;
