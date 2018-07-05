@@ -415,8 +415,8 @@ li {
 
 @media screen and (max-width:320px) {
   .home {
-margin-top: 0;
-    margin-right: 110px;
+    margin-top: -70px;
+    margin-right: 0px;
 }
 }
 
@@ -639,13 +639,32 @@ footer {
     margin-left: 0px;
   }
 
-  #skills-mobile {
-  margin-top: -200px;
-}
  #projects_section {
   margin-top: -100px;
 }
 }
+
+
+
+
+@media screen and (max-width:400px) {
+  #skills-mobile {
+    margin-top: 200px;
+}
+}
+
+@media screen and (max-width:370px) {
+  #skills-mobile {
+    margin-top: 250px;
+}
+}
+
+@media screen and (max-width:340px) {
+  #skills-mobile {
+    margin-top: 350px;
+}
+
+  }
 
 @media screen and (max-width:350px) {
 
