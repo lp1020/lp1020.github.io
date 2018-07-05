@@ -639,13 +639,30 @@ footer {
     margin-left: 0px;
   }
 
+
+
  #projects_section {
   margin-top: -100px;
 }
 }
 
+@media screen and (max-width:707px) {
+
+   #skills-mobile {
+    margin-top: -50px;
+}
+}
 
 
+
+
+
+
+@media screen and (max-width:548px) {
+  #skills-mobile {
+    margin-top: 100px;
+}
+}
 
 @media screen and (max-width:400px) {
   #skills-mobile {
