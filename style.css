@@ -60,7 +60,7 @@ background-color: white;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
   
-      padding: 10px 15px 10px 15px;
+      padding: 10px 12px 10px 12px;
     border-radius: 100%;
     font-size: 18px; /* Increase font size */
 }
