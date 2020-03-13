@@ -60,9 +60,9 @@ background-color: white;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
   
-      padding: 10px 12px 10px 12px;
+      padding: 2px 13px 5px 13px;
     border-radius: 100%;
-    font-size: 18px; /* Increase font size */
+    font-size: 24px; /* Increase font size */
 }
 
 #myTopBtn:hover {
